@@ -1,0 +1,85 @@
+body{
+    background: linear-gradient(to top right, black, silver);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.slider {
+    width: 1000px;
+    height: 500px;
+    position: relative;
+    border-radius: 40px;
+    box-shadow:inset rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.slider i {
+    position: absolute;
+    z-index: 1;
+    top: 230px;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.slider .minus {
+    margin-top: 22%;
+    font-size: 50px;
+    color: gray;
+}
+
+.slider .minus1 {
+    margin-left: 29%;
+}
+
+.slider .minus2 {
+    margin-left: 37%;
+}
+
+.slider .minus3 {
+    margin-left: 45%;
+}
+
+.slider .minus4 {
+    margin-left: 53%;
+}
+
+.slider .minus5 {
+    margin-left: 61%;
+}
+
+.slider .minus6 {
+    margin-left: 69%;
+}
+
+.slider .left {
+    margin-left: 15px;
+}
+
+.slider .right {
+    right: 15px;
+}
+
+.slider .image {
+    border-radius: inherit;
+}
+
+.slider img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: inherit;
+    opacity: 0;
+}
+
+.active-image {
+    opacity: 1 !important;
+}
+
+
+.slider {
+    .active-icon {
+        color: white;
+    }
+}

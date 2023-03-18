@@ -1,0 +1,49 @@
+.sidebar-top{
+    width: 100%;
+    height: 385px;
+    background-color: gray;
+    position: relative;
+    transition: all 0.2s;
+}
+
+.sidebar-top i{
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    font-size: 30px;
+    cursor: pointer;
+    height: max-content;
+}
+
+.sidebar-top .list {
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+    padding: 3%;
+}
+
+.sidebar-top ul{
+    list-style: none;
+ }
+
+.sidebar-top ul li{
+    margin-top: 15px;
+}
+
+.sidebar-top ul li a{
+   color: white;
+   text-decoration: none;
+   font-size: 18px;
+}
+
+.sidebar-top ul li .item{
+    font-weight: 500;
+    font-size: 25px;
+    color: black;
+    text-decoration: underline;
+ }
+
+ .hide-sidebar{
+    transform: translateY(-340px);
+ }
+ 
